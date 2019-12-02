@@ -12,93 +12,121 @@
 $AU-main-nav-breakpoint: sm;
 
 // UI-Kit
-@import './_auds.scss';
-
+@import "./_auds.scss";
 
 // Reset the body
 body {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
-
 
 // Increase the spacing for au-body elements inside main
 main > .au-body {
-	@include AU-space( padding, 2unit 0 );
-
+  @include AU-space(padding, 2unit 0);
 }
 
 main > .banner {
-
-	@include AU-media( sm ) {
-		@include AU-space( padding, 4unit 0 );
-	}
+  @include AU-media(sm) {
+    @include AU-space(padding, 4unit 0);
+  }
 }
-
 
 // Slight grid changes for container fluid
 .au-grid .container-fluid {
-	@include AU-space( max-width, 80unit );
+  @include AU-space(max-width, 80unit);
 
-	@include AU-media( sm ){
-		@include AU-space( padding-left, 2unit );
-		@include AU-space( padding-right, 2unit );
-	}
+  @include AU-media(sm) {
+    @include AU-space(padding-left, 2unit);
+    @include AU-space(padding-right, 2unit);
+  }
 }
 
 // Increase spacing between inline list items in footer
 .au-footer .au-link-list--inline li {
-	@include AU-space( padding-right, 1unit );
+  @include AU-space(padding-right, 1unit);
 }
 
 // The call to actions on the home page
 .btn-cta-group {
-	@include AU-space( margin-top, 1unit );
+  @include AU-space(margin-top, 1unit);
 
-	.au-btn {
-		@include AU-space( margin-top, 1unit );
-	}
+  .au-btn {
+    @include AU-space(margin-top, 1unit);
+  }
 }
 
 // Mobile side nav spacing
 .au-side-nav {
-	@include AU-space( margin-bottom, 2unit );
+  @include AU-space(margin-bottom, 2unit);
 
-	@include AU-media( sm ){
-		margin-bottom: 0;
-	}
+  @include AU-media(sm) {
+    margin-bottom: 0;
+  }
 }
 
 form {
-	@include AU-space( margin-top, 2unit );
+  @include AU-space(margin-top, 2unit);
 }
 
 .hide_content {
-	display: none;
+  display: none;
 }
 
 //increase the space between form groups
 .au-form-group + .au-form-group {
-	@include AU-space( 'margin-top', 2unit)
+  @include AU-space("margin-top", 2unit);
 }
 
 .articles-cta {
-	@include AU-space( 'margin-top', 0.25unit );
-	text-align: right;
+  @include AU-space("margin-top", 0.25unit);
+  text-align: right;
 
-	@include AU-media( md ) {
-		@include AU-space( 'margin-top', 1unit );
-	}
+  @include AU-media(md) {
+    @include AU-space("margin-top", 1unit);
+  }
 }
 
-
 .au-header .au-search {
+  width: 100%;
+  @include AU-media(xs) {
+    width: 75%;
+  }
+  @include AU-media(sm) {
+    width: 100%;
+  }
 
-	width: 100%;
-	@include AU-media( xs ) {
-		width: 75%;
-	}
-	@include AU-media( sm ) {
-		width: 100%;
-	}
+  &__heading {
+    height: 100%;
+  }
+}
+
+.au-header {
+  &__text {
+    height: 64px;
+    padding-top: 0.6rem;
+  }
+}
+
+// Modifications to existing ausDTA format
+header {
+  background-color: #313131 !important;
+  padding: 2rem !important;
+}
+.au-main-nav .au-link-list {
+  background-color: #313131 !important;
+}
+.au-main-nav.au-main-nav--dark {
+  background-color: #313131 !important;
+}
+
+.au-main-nav.au-main-nav--dark a {
+  border-color: #ffffff !important;
+  background-color: #313131 !important;
+  :hover {
+    background-color: #313131;
+  }
+}
+
+.au-footer.au-footer--dark {
+  background-color: #313131 !important;
 }
