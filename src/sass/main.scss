@@ -123,8 +123,12 @@ header {
   border-color: #ffffff !important;
   background-color: #313131 !important;
   :hover {
-    background-color: #313131;
+    background-color: #313131 !important;
   }
+}
+
+.au-main-nav.au-main-nav--dark .au-main-nav__menu {
+  background-color: #313131 !important;
 }
 
 .au-footer.au-footer--dark {

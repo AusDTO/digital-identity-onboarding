@@ -1739,7 +1739,9 @@ header { background-color: #313131 !important; padding: 2rem !important; }
 
 .au-main-nav.au-main-nav--dark a { border-color: #ffffff !important; background-color: #313131 !important; }
 
-.au-main-nav.au-main-nav--dark a :hover { background-color: #313131; }
+.au-main-nav.au-main-nav--dark a :hover { background-color: #313131 !important; }
+
+.au-main-nav.au-main-nav--dark .au-main-nav__menu { background-color: #313131 !important; }
 
 .au-footer.au-footer--dark { background-color: #313131 !important; }
 
