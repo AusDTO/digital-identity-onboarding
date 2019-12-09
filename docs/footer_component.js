@@ -40,9 +40,9 @@ class FooterComponent extends React.Component {
                 React.createElement(
                   "a",
                   {
-                    href: "#"
+                    href: "../contact"
                   },
-                  "Privacy"
+                  "Contact"
                 )
               ),
               React.createElement(
@@ -51,20 +51,42 @@ class FooterComponent extends React.Component {
                 React.createElement(
                   "a",
                   {
-                    href: "#"
-                  },
-                  "Need Help?"
-                )
-              ),
-              React.createElement(
-                "li",
-                null,
-                React.createElement(
-                  "a",
-                  {
-                    href: "#"
+                    href: "https://www.dta.gov.au/accessibility"
                   },
                   "Accessibility"
+                )
+              ),
+              React.createElement(
+                "li",
+                null,
+                React.createElement(
+                  "a",
+                  {
+                    href: "https://www.dta.gov.au/cookies"
+                  },
+                  "Cookies"
+                )
+              ),
+              React.createElement(
+                "li",
+                null,
+                React.createElement(
+                  "a",
+                  {
+                    href: "https://www.dta.gov.au/our-privacy-policy"
+                  },
+                  "Policy"
+                )
+              ),
+              React.createElement(
+                "li",
+                null,
+                React.createElement(
+                  "a",
+                  {
+                    href: "https://www.dta.gov.au/disclaimer-and-copyright"
+                  },
+                  "Disclaimer and Copyright"
                 )
               )
             )
@@ -82,7 +104,7 @@ class FooterComponent extends React.Component {
               React.createElement(
                 "p",
                 null,
-                "\xA9 Commonwealth of Australia. With the exception of the Commonwealth Coat of Arms and where otherwise noted, this work is licensed under the",
+                "\xA9 Commonwealth of Australia. With the exception of the Commonwealth Coat of Arms and where otherwise noted, this work is licensed under the ",
                 React.createElement(
                   "a",
                   {
