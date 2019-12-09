@@ -134,3 +134,17 @@ header {
 .au-footer.au-footer--dark {
   background-color: #313131 !important;
 }
+
+.au-body p {
+  max-width: 60em;
+}
+
+h2 {
+  color: #3baad0;
+}
+.au-body .au-btn.au-btn--secondary,
+.au-body a.au-btn.au-btn--secondary {
+  color: #3baad0 !important;
+  border-color: #3baad0 !important;
+  background-color: #ffffff;
+}
