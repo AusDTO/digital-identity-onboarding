@@ -107,6 +107,8 @@
 		<div id="header_component"></div>
 
 		<!-- MAIN NAVIGATION -->
+
+		<!-- MAIN NAVIGATION -->
 		<nav class="au-main-nav au-main-nav--dark" id="#mainmenu" aria-label="main">
 			<div class="container-fluid header-nav">
 				<div class="row">
@@ -129,9 +131,9 @@
 									</button>
 									<ul class="au-link-list">
 										<li><a href="../#">Home</a></li>
-										<li><a href="../howidentityworks">How identity works</a></li>
+										<li class="active"><a href="./">How identity works</a></li>
 										<li><a href="../onboardingprocess">Onboarding process</a></li>
-										<li class="active"><a href="./">Contact</a></li>
+										<li><a href="../contact">Contact</a></li>
 									</ul>
 									<div class="au-main-nav__focus-trap-bottom"></div>
 								</div>
@@ -144,7 +146,46 @@
 			</div>
 		</nav>
 
-		<main></main>
+		<main>
+
+			<!--CONTENT-->
+			<section class="au-body">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-2"> <!-- col-sm-push-8" -->
+
+							<aside class="au-side-nav au-accordion" aria-label="side navigation">
+								<button
+									class="au-side-nav__toggle au-accordion__title au-accordion--closed"
+									aria-controls="nav-default"
+									aria-expanded="false"
+									onclick="return AU.accordion.Toggle( this )">
+									In this section
+								</button>
+								<div id="nav-default" class="au-side-nav__content au-accordion--closed
+									au-accordion__body">
+									<h2 class="au-sidenav__title" style="font-weight: normal">
+										<a href="./#">How identity works</a>
+									</h2>
+									<ul class="au-link-list" style="font-weight: bold">
+										<li><a href="./">Privacy and data management</a></li>
+									</ul>
+								</div>
+							</aside>
+						</div>
+
+							<div class="col-sm-8" id="content"> <!-- col-sm-pull-4 -->
+								
+								<h1>Privacy and data management</h1>
+								
+							</div>
+
+						</main>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--END CONTENT-->
 
 		<div id="footer_component"></div>
 

@@ -17,6 +17,7 @@ class HeaderComponent extends React.Component {
       { onClick: () => this.setState({ liked: true }) },
       "Like"
     ); */
+    console.log(React.version);
 
     return e(
       "header",
@@ -46,7 +47,8 @@ class HeaderComponent extends React.Component {
               React.createElement("img", {
                 class: "au-header__brand-image",
                 alt: "Digital Identity Service Onboarding Guide",
-                src: "assets/img/header-logo-agov.png"
+                src:
+                  this.props.logo_location + "/assets/img/header-logo-agov.png"
               }),
               React.createElement(
                 "div",
