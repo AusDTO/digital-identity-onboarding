@@ -148,3 +148,15 @@ h2 {
   border-color: #3baad0 !important;
   background-color: #ffffff;
 }
+
+.ux_flowcards {
+  background-color: #d7d7d7;
+  height: 10rem;
+  margin-top: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  padding: 2rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
