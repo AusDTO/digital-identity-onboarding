@@ -108,6 +108,14 @@ form {
 }
 
 // Modifications to existing ausDTA format
+h2 {
+  font-size: 1.8rem !important;
+}
+
+h3 {
+  font-weight: normal !important;
+}
+
 header {
   background-color: #313131 !important;
   padding: 2rem !important;
@@ -182,4 +190,16 @@ h2 {
   background-color: #eeeeee;
   width: 100%;
   border-top: 0.7rem solid #cd2a98;
+}
+
+#grid-container {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 1rem;
 }
