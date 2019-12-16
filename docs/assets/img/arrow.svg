@@ -1,0 +1,17 @@
+
+<svg width="28px" height="17px" viewBox="0 0 28 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M21.2495599,14.7071068 L19.3730028,16.5836639 C18.9827796,16.9738871 18.9824347,17.6064574 19.3722321,17.9971059 L29.3533333,28 L19.3722321,38.0028941 C18.9824347,38.3935426 18.9827796,39.0261129 19.3730028,39.4163361 L21.2495599,41.2928932 C21.6400842,41.6834175 22.2732492,41.6834175 22.6637734,41.2928932 L35.9566667,28 L22.6637734,14.7071068 C22.2732492,14.3165825 21.6400842,14.3165825 21.2495599,14.7071068 Z" id="path-1"></path>
+    </defs>
+    <g id="Service-onboarding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Content-/-User-flow-create" transform="translate(-868.000000, -1057.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="3684"></rect>
+            <g id="Atoms-/-icons-/-System-/-Chevron_right-grey" transform="translate(882.000000, 1066.000000) rotate(-270.000000) translate(-882.000000, -1066.000000) translate(854.000000, 1038.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#666666" fill-rule="evenodd" transform="translate(27.311667, 28.000000) scale(-1, 1) rotate(-180.000000) translate(-27.311667, -28.000000) " xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

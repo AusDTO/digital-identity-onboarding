@@ -17,7 +17,6 @@ class HeaderComponent extends React.Component {
       { onClick: () => this.setState({ liked: true }) },
       "Like"
     ); */
-    console.log(React.version);
 
     return e(
       "header",

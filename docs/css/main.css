@@ -1755,4 +1755,10 @@ h2 { color: #3baad0; }
 
 .ux_flowcards:hover { cursor: pointer; }
 
+.user_flow_cards { border: solid 1px #999999; width: 80%; margin: 1rem auto; }
+
+.user_flow_cards_content { margin: 1.5rem; }
+
+.user_flow_arrow { width: 100%; text-align: center; }
+
 /*# sourceMappingURL=main.css.map */

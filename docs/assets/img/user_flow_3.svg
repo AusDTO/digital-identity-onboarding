@@ -1,0 +1,63 @@
+
+<svg width="661px" height="106px" viewBox="0 0 661 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="349" y="0" width="80" height="104"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="104" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M11.8395599,8.70710678 L11.3730028,9.17366391 C10.9827796,9.5638871 10.9824347,10.1964574 11.3722321,10.5871059 L16.7733333,16 L11.3722321,21.4128941 C10.9824347,21.8035426 10.9827796,22.4361129 11.3730028,22.8263361 L11.8395599,23.2928932 C12.2300842,23.6834175 12.8632492,23.6834175 13.2537734,23.2928932 L20.5466667,16 L13.2537734,8.70710678 C12.8632492,8.31658249 12.2300842,8.31658249 11.8395599,8.70710678 Z" id="path-3"></path>
+        <path d="M11.8395599,8.70710678 L11.3730028,9.17366391 C10.9827796,9.5638871 10.9824347,10.1964574 11.3722321,10.5871059 L16.7733333,16 L11.3722321,21.4128941 C10.9824347,21.8035426 10.9827796,22.4361129 11.3730028,22.8263361 L11.8395599,23.2928932 C12.2300842,23.6834175 12.8632492,23.6834175 13.2537734,23.2928932 L20.5466667,16 L13.2537734,8.70710678 C12.8632492,8.31658249 12.2300842,8.31658249 11.8395599,8.70710678 Z" id="path-5"></path>
+        <path d="M11.8395599,8.70710678 L11.3730028,9.17366391 C10.9827796,9.5638871 10.9824347,10.1964574 11.3722321,10.5871059 L16.7733333,16 L11.3722321,21.4128941 C10.9824347,21.8035426 10.9827796,22.4361129 11.3730028,22.8263361 L11.8395599,23.2928932 C12.2300842,23.6834175 12.8632492,23.6834175 13.2537734,23.2928932 L20.5466667,16 L13.2537734,8.70710678 C12.8632492,8.31658249 12.2300842,8.31658249 11.8395599,8.70710678 Z" id="path-7"></path>
+        <path d="M11.8395599,8.70710678 L11.3730028,9.17366391 C10.9827796,9.5638871 10.9824347,10.1964574 11.3722321,10.5871059 L16.7733333,16 L11.3722321,21.4128941 C10.9824347,21.8035426 10.9827796,22.4361129 11.3730028,22.8263361 L11.8395599,23.2928932 C12.2300842,23.6834175 12.8632492,23.6834175 13.2537734,23.2928932 L20.5466667,16 L13.2537734,8.70710678 C12.8632492,8.31658249 12.2300842,8.31658249 11.8395599,8.70710678 Z" id="path-9"></path>
+        <path d="M11.8395599,8.70710678 L11.3730028,9.17366391 C10.9827796,9.5638871 10.9824347,10.1964574 11.3722321,10.5871059 L16.7733333,16 L11.3722321,21.4128941 C10.9824347,21.8035426 10.9827796,22.4361129 11.3730028,22.8263361 L11.8395599,23.2928932 C12.2300842,23.6834175 12.8632492,23.6834175 13.2537734,23.2928932 L20.5466667,16 L13.2537734,8.70710678 C12.8632492,8.31658249 12.2300842,8.31658249 11.8395599,8.70710678 Z" id="path-11"></path>
+    </defs>
+    <g id="Service-onboarding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Content-/-User-flow-create" transform="translate(-551.000000, -1871.000000)">
+            <g id="Content" transform="translate(519.000000, 386.000000)">
+                <g id="Check-eligibility" transform="translate(0.000000, 1208.000000)">
+                    <g id="Flow-/-Create-account" transform="translate(32.000000, 278.000000)">
+                        <rect id="Rectangle" fill="#EBEBEB" x="0" y="0" width="80" height="104"></rect>
+                        <rect id="Rectangle-Copy-2" fill="#EBEBEB" x="465" y="0" width="80" height="104"></rect>
+                        <rect id="Rectangle-Copy-6" fill="#EBEBEB" x="581" y="0" width="80" height="104"></rect>
+                        <g id="Rectangle-Copy-3" stroke-dasharray="8,4" stroke="#979797">
+                            <use mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                            <use stroke-width="1" xlink:href="#path-1"></use>
+                        </g>
+                        <rect id="Rectangle-Copy-4" fill="#C91978" x="232" y="0" width="80" height="104"></rect>
+                        <g id="Atoms-/-icons-/-System-/-Chevron_right-grey" transform="translate(82.000000, 36.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Mask" fill="#666666" fill-rule="evenodd" transform="translate(15.606667, 16.000000) scale(-1, 1) rotate(-180.000000) translate(-15.606667, -16.000000) " xlink:href="#path-3"></use>
+                        </g>
+                        <g id="Atoms-/-icons-/-System-/-Chevron_right-grey" transform="translate(198.000000, 36.000000)">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <use id="Mask" fill="#666666" fill-rule="evenodd" transform="translate(15.606667, 16.000000) scale(-1, 1) rotate(-180.000000) translate(-15.606667, -16.000000) " xlink:href="#path-5"></use>
+                        </g>
+                        <g id="Atoms-/-icons-/-System-/-Chevron_right-grey" transform="translate(315.000000, 36.000000)">
+                            <mask id="mask-8" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <use id="Mask" fill="#666666" fill-rule="evenodd" transform="translate(15.606667, 16.000000) scale(-1, 1) rotate(-180.000000) translate(-15.606667, -16.000000) " xlink:href="#path-7"></use>
+                        </g>
+                        <g id="Atoms-/-icons-/-System-/-Chevron_right-grey" transform="translate(431.000000, 36.000000)">
+                            <mask id="mask-10" fill="white">
+                                <use xlink:href="#path-9"></use>
+                            </mask>
+                            <use id="Mask" fill="#666666" fill-rule="evenodd" transform="translate(15.606667, 16.000000) scale(-1, 1) rotate(-180.000000) translate(-15.606667, -16.000000) " xlink:href="#path-9"></use>
+                        </g>
+                        <g id="Atoms-/-icons-/-System-/-Chevron_right-grey" transform="translate(547.000000, 36.000000)">
+                            <mask id="mask-12" fill="white">
+                                <use xlink:href="#path-11"></use>
+                            </mask>
+                            <use id="Mask" fill="#666666" fill-rule="evenodd" transform="translate(15.606667, 16.000000) scale(-1, 1) rotate(-180.000000) translate(-15.606667, -16.000000) " xlink:href="#path-11"></use>
+                        </g>
+                        <rect id="Rectangle-Copy-5" fill="#EBEBEB" x="116" y="0" width="80" height="104"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
