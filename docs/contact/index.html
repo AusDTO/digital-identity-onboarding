@@ -144,7 +144,106 @@
 			</div>
 		</nav>
 
-		<main></main>
+		<main>
+			<!--CONTENT-->
+			<section class="au-body">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-7">
+							<h1>Contact the digital identity team </h1>
+							<h3>We can answer questions by phone or email, or set up an onboarding
+								meeting. </h3>
+							<h2>Ready to onboard?</h2>
+							<p>If you want to start the onboarding process you can use this
+								questionnaire to set up a meeting. </p>
+							<div class="btn-cta-group">
+								<a class="au-btn au-btn--secondary" href="./bookameeting" style="width:
+									70%; text-align: center;">Book a meeting
+									with our team</a>
+							</div>
+							<h2>Ask a question</h2>
+							<p>Please complete this form so we can get back to you: </p>
+
+							<div class="au-page-alerts au-page-alerts--error hide_content"
+								id="error-summary">
+								<h3 tabindex="0" id="error-heading">There is a problem</h3>
+								<ul id="error-list"></ul>
+							</div>
+
+							<form action="index.html" id="form-1" novalidate>
+								<div class="au-form-group">
+									<label for="name" class="au-label">Name:</label>
+									<span class="au-error-text hide_content" id="full-name-error"></span>
+									<input class="au-text-input au-text-input--width-lg" name="Full name"
+										id="name" type="text" aria-required="true"
+										aria-describedby="full-name-error" autocomplete="name">
+								</div>
+
+								<div class="au-form-group">
+									<label for="email" class="au-label">Email:</label>
+									<span class="au-hint-text" id="email-hint">We will only use this to
+										respond to your request</span>
+									<span class="au-error-text hide_content" id="email-error"></span>
+									<input class="au-text-input au-text-input--width-lg" name="Email"
+										id="email" type="email" aria-required="true"
+										aria-describedby="email-error email-hint" autocomplete="email">
+								</div>
+
+								<div class="au-form-group">
+									<label for="name" class="au-label">Phone:</label>
+									<span class="au-error-text hide_content" id="full-name-error"></span>
+									<input class="au-text-input au-text-input--width-lg" name="Full name"
+										id="name" type="text" aria-required="true"
+										aria-describedby="full-name-error" autocomplete="name">
+								</div>
+
+								<!--RADIO OPTIONS-->
+								<!--<div class="au-form-group">
+									<fieldset class="au-fieldset">
+										<legend class="au-fieldset__legend">
+											<label class="au-label">Type of feedback</label>
+										</legend>
+										<div class="au-control-input au-control-input--block">
+											<input class="au-control-input__input" type="radio"
+												name="type-of-feedback" id="compliment" value="Compliment" checked>
+											<label class="au-control-input__text" for="compliment">Compliment</label>
+										</div>
+
+										<div class="au-control-input au-control-input--block">
+											<input class="au-control-input__input" type="radio"
+												name="type-of-feedback" id="suggestion" value="suggestion">
+											<label class="au-control-input__text" for="suggestion">Suggestion</label>
+										</div>
+
+										<div class="au-control-input au-control-input--block">
+											<input class="au-control-input__input" type="radio"
+												name="type-of-feedback" id="complaint" value="complaint">
+											<label class="au-control-input__text" for="complaint">Complaint</label>
+										</div>
+									</fieldset>
+								</div> -->
+								<div class="au-form-group">
+									<label class="au-label" for="help-comment"> How can we help you?</label>
+									<span class="au-hint-text" id="description-hint">Add some detail about
+										your contact request.</span>
+									<span class="au-error-text hide_content" id="description-error"></span>
+									<textarea class="au-text-input au-text-input--block" name="Description"
+										id="help-comment" aria-required="true"
+										aria-describedby="description-error description-hint"></textarea>
+								</div>
+								<p>We will try to call or email you within 5 business days. </p>
+								<p></p>
+								<!--FORM SUBMIT BUTTON-->
+								<div class="au-form-group">
+									<button class="au-btn" id="form-submit" type="submit" style="width:
+										70%">Submit</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
 
 		<div id="footer_component"></div>
 
