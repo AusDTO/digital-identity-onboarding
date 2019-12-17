@@ -110,6 +110,8 @@ form {
 // Modifications to existing ausDTA format
 h2 {
   font-size: 1.8rem !important;
+  font-weight: normal !important;
+  color: #3baad0;
 }
 
 h3 {
@@ -147,9 +149,6 @@ header {
   max-width: 60em;
 }
 
-h2 {
-  color: #3baad0;
-}
 .au-body .au-btn.au-btn--secondary,
 .au-body a.au-btn.au-btn--secondary {
   color: #3baad0 !important;

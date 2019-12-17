@@ -1731,7 +1731,7 @@ form { margin-top: 32px; margin-top: 2rem; }
 
 .au-header__text { height: 64px; padding-top: 0.6rem; }
 
-h2 { font-size: 1.8rem !important; }
+h2 { font-size: 1.8rem !important; font-weight: normal !important; color: #3baad0; }
 
 h3 { font-weight: normal !important; }
 
@@ -1750,8 +1750,6 @@ header { background-color: #313131 !important; padding: 2rem !important; }
 .au-footer.au-footer--dark { background-color: #313131 !important; }
 
 .au-body p { max-width: 60em; }
-
-h2 { color: #3baad0; }
 
 .au-body .au-btn.au-btn--secondary, .au-body a.au-btn.au-btn--secondary { color: #3baad0 !important; border-color: #3baad0 !important; background-color: #ffffff; }
 
