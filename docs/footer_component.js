@@ -53,7 +53,11 @@ class FooterComponent extends React.Component {
                   {
                     href: "https://www.dta.gov.au/accessibility"
                   },
-                  "Accessibility"
+                  "Accessibility",
+                  React.createElement("img", {
+                    alt: "External link to DTA Accessibility page",
+                    src: "../assets/img/external-link-footer.svg"
+                  })
                 )
               ),
               React.createElement(
@@ -64,7 +68,11 @@ class FooterComponent extends React.Component {
                   {
                     href: "https://www.dta.gov.au/cookies"
                   },
-                  "Cookies"
+                  "Cookies",
+                  React.createElement("img", {
+                    alt: "External link to DTA Cookies page",
+                    src: "../assets/img/external-link-footer.svg"
+                  })
                 )
               ),
               React.createElement(
@@ -75,7 +83,11 @@ class FooterComponent extends React.Component {
                   {
                     href: "https://www.dta.gov.au/our-privacy-policy"
                   },
-                  "Policy"
+                  "Policy",
+                  React.createElement("img", {
+                    alt: "External link to DTA Policy page",
+                    src: "../assets/img/external-link-footer.svg"
+                  })
                 )
               ),
               React.createElement(
@@ -86,7 +98,11 @@ class FooterComponent extends React.Component {
                   {
                     href: "https://www.dta.gov.au/disclaimer-and-copyright"
                   },
-                  "Disclaimer and Copyright"
+                  "Disclaimer and Copyright",
+                  React.createElement("img", {
+                    alt: "External link to DTA Disclaimer and Copyright page",
+                    src: "../assets/img/external-link-footer.svg"
+                  })
                 )
               )
             )
@@ -112,7 +128,11 @@ class FooterComponent extends React.Component {
                       "https://github.com/govau/design-system-starter/blob/master/LICENSE",
                     rel: "external"
                   },
-                  "MIT license"
+                  "MIT license",
+                  React.createElement("img", {
+                    alt: "External link to MIT license page",
+                    src: "../assets/img/external-link-footer.svg"
+                  })
                 )
               )
             )

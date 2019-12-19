@@ -41,7 +41,7 @@ class HeaderComponent extends React.Component {
               "a",
               {
                 class: "au-header__brand",
-                href: "#"
+                href: "../#"
               },
               React.createElement("img", {
                 class: "au-header__brand-image",
