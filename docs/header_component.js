@@ -44,7 +44,7 @@ class HeaderComponent extends React.Component {
                 href: "../#"
               },
               React.createElement("img", {
-                class: "au-header__brand-image",
+                className: "au-header__brand-image",
                 alt: "Digital Identity Service Onboarding Guide",
                 src:
                   //this.props.logo_location +
