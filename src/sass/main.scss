@@ -150,6 +150,10 @@ header {
 .au-body p {
   max-width: 60em;
 }
+.au-body {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
 
 .au-body .au-btn.au-btn--secondary,
 .au-body a.au-btn.au-btn--secondary {
