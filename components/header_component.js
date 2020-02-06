@@ -48,7 +48,7 @@ class HeaderComponent extends React.Component {
                 alt: "Digital Identity Service Onboarding Guide",
                 src:
                   //this.props.logo_location +
-                  "/assets/img/header-logo-agov.png"
+                  "../assets/img/header-logo-agov.png"
               }),
               React.createElement(
                 "div",
