@@ -23,8 +23,9 @@ class HeaderComponent extends React.Component {
     if (location[3] === "digital-identity-onboarding") {
       homelocation = "";
     } else {
-      homelocation = "../digital-identity-onboarding/#";
+      homelocation = "../#";
     }
+    console.log(location[3], "Accessed");
 
     return e(
       "header",
