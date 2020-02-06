@@ -4,12 +4,12 @@
   "version": "1.1.1",
   "description": "Digital Identity Onboarding Platform",
   "scripts": {
-    "build:autoprefix": "postcss docs/css/main.css -u autoprefixer -r",
-    "build:css": "node-sass --output-style compressed \"./src/sass/main.scss\" \"./docs/css/main.css\"",
-    "build:css:dev": "node-sass --output-style compact --source-map true src/sass/main.scss docs/css/main.css",
+    "build:autoprefix": "postcss css/main.css -u autoprefixer -r",
+    "build:css": "node-sass --output-style compressed \"./src/sass/main.scss\" \"./css/main.css\"",
+    "build:css:dev": "node-sass --output-style compact --source-map true src/sass/main.scss css/main.css",
     "build": "npm run build:css && npm run build:autoprefix",
     "watch:sass": "onchange \"./src/sass/main.scss\" -- npm run build:css:dev && npm run build:autoprefix",
-    "serve": "browser-sync start --server ./docs -w --files \"./docs/**/*.html\" \"./docs/css/main.css\" \"./docs/js/script.js\"",
+    "serve": "browser-sync start --server ./ -w --files \"./**/*.html\" \"./css/main.css\" \"./js/script.js\"",
     "watch": "npm run build && npm-run-all --parallel serve watch:sass",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
@@ -114,7 +114,7 @@
     "js": {
       "minified": true,
       "modules": false,
-      "location": "docs/js/",
+      "location": "./js/",
       "name": "script.min.js"
     }
   },
