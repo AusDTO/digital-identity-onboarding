@@ -18,6 +18,14 @@ class HeaderComponent extends React.Component {
       "Like"
     ); */
 
+    let location = window.location.href.split("/");
+    let homelocation = "";
+    if (location[3] === "digital-identity-onboarding") {
+      homelocation = "";
+    } else {
+      homelocation = "../digital-identity-onboarding/#";
+    }
+
     return e(
       "header",
       {
@@ -41,7 +49,7 @@ class HeaderComponent extends React.Component {
               "a",
               {
                 class: "au-header__brand",
-                href: "digital-identity-onboarding/#"
+                href: homelocation
               },
               React.createElement("img", {
                 className: "au-header__brand-image",
