@@ -20,12 +20,12 @@ class HeaderComponent extends React.Component {
 
     let location = window.location.href.split("/");
     let homelocation = "";
-    if (location[3] === "digital-identity-onboarding") {
-      homelocation = "";
+    if (location[4] === "#") {
+      homelocation = "#";
     } else {
       homelocation = "../../digital-identity-onboarding/#";
     }
-    console.log(location[3], "Accessed2");
+    console.log(location[3], "Accessed");
 
     return e(
       "header",
