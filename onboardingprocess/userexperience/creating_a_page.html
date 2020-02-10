@@ -78,7 +78,7 @@
 		var $html = document.documentElement; if ($html.classList) $html.classList.remove("no-js"), $html.classList.add("js"); else { var className = "no-js"; $html.className = $html.className.replace(new RegExp("(^|\\b)" + className.split(" ").join("|") + "(\\b|$)", "gi"), " "), $html.className += " js" }
 	</script>
 		<link rel="icon" href="assets/favicons/favicon.ico">
-		<link type="text/css" rel="stylesheet" href="../css/main.css">
+		<link type="text/css" rel="stylesheet" href="../../css/main.css">
 
 		<!-- These are shivs to help modern html work in older internet explorer browsers -->
 		<!--[if lt IE 9]>
@@ -128,10 +128,10 @@
 										Close
 									</button>
 									<ul class="au-link-list">
-										<li><a href="../#">Home</a></li>
-										<li><a href="../howidentityworks">How identity works</a></li>
+										<li><a href="../../#">Home</a></li>
+										<li><a href="../../howidentityworks">How identity works</a></li>
 										<li class="active"><a href="../onboardingprocess">Onboarding process</a></li>
-										<li><a href="../contact">Contact</a></li>
+										<li><a href="../../contact">Contact</a></li>
 									</ul>
 									<div class="au-main-nav__focus-trap-bottom"></div>
 								</div>
@@ -160,41 +160,111 @@
 								<div id="nav-default" class="au-side-nav__content au-accordion--closed
 									au-accordion__body">
 									<h2 class="au-sidenav__title" style="font-weight: normal">
-										<a href="./#">Onboarding Process</a>
+										<a href="../#">Onboarding Process</a>
 									</h2>
 									<ul class="au-link-list">
-										<li><a href="./user_experience.html">User experience</a>
+										<li><a href="../user_experience.html">User experience</a>
 											<ul class="au-link-list">
-												<li><a href="./design_principles.html">Design principles</a></li>
-												<li><a href="./user_flows.html" style="font-weight: bold">User flows</a>
+												<li><a href="../design_principles.html">Design principles</a></li>
+												<li><a href="../user_flows.html">User flows</a>
 													<ul class="au-link-list">
-														<li><a href="./userexperience/creating_a_page.html">Creating a
-																page</a></li>
-														<li><a href="./userexperience/linking_to_existing_account.html">Linking
-																to an
-																existing account</a></li>
+                                                        <li><a href="./creating_a_page.html" style="font-weight: bold">Creating a page</a></li>
+                                                        <li><a href="./linking_to_existing_account.html">Linking
+                                                            to an existing account</a></li>
 													</ul>
 												</li>
-												<li><a href="./template_pages.html">Template pages</a></li>
-												<li><a href="./patterns.html">Patterns</a></li>
-												<li><a href="./branding.html">Branding</a></li>
+												<li><a href="../template_pages.html">Template pages</a></li>
+												<li><a href="../patterns.html">Patterns</a></li>
+												<li><a href="../branding.html">Branding</a></li>
 											</ul>
 										</li>
-										<li><a href="./technical_and_compliance.html">Technical and compliance</a></li>
-										<li><a href="./support_for_users.html">Support for users</a></li>
+										<li><a href="../technical_and_compliance.html">Technical and compliance</a></li>
+										<li><a href="../support_for_users.html">Support for users</a></li>
 									</ul>
 								</div>
 							</aside>
 						</div>
 
-						<div class="col-sm-8" id="content">
+						<div class="col-sm-8" id="content"> <!-- col-sm-pull-4 -->
 							<h1>User Flows</h1>
-							<p>We’ve developed some common user flows to help you understand the
-								optimal place to include digital identity, depending on what you’re
-								asking users to do. </p>
-							<ul><li><a href="userexperience/creating_a_page.html">Creating a page</a></li><li><a
-										href="userexperience/linking_to_existing_account.html">Linking
-										to an existing account</a></li></ul>
+							<p class="intro-text">Creating an account </p>
+							<p style="margin-bottom: 2rem;">Use this flow when a user is creating an account with your service for
+								the first time. Creating a digital identity before creating an account
+								allows the service to pre-populate the account with verified details,
+								such as name, date of birth and email address.
+							</p>
+							<div class="user_flow_cards">
+								<div class="user_flow_cards_content">
+									<h3>1. Choose the service</h3>
+									<p style="margin-bottom: 5rem;">The user selects the service they wish to access.</p>
+									<img src="../../assets/img/user_flow_1.svg"></img>
+								</div>
+							</div>
+							<div class="user_flow_arrow">
+								<img src="../../assets/img/arrow.svg"></img>
+							</div>
+							<div class="user_flow_cards">
+									<div class="user_flow_cards_content">
+										<h3>2. Offer choice to use digital identity</h3>
+										<p style="margin-top: 5rem;">
+											<a href="./#">
+												Page template for offering choice
+											</a>
+										</p>
+										<img src="../../assets/img/user_flow_2.svg"></img>
+									</div>
+							</div>
+							<div class="user_flow_arrow">
+								<img src="../../assets/img/arrow.svg"></img>
+							</div>
+							<div class="user_flow_cards">
+									<div class="user_flow_cards_content">
+										<h3>3. Check eligibility to use digital identity</h3>
+										<p style="margin-top: 5rem;">
+											<a href="./#">
+												Page template for checking eligibility
+											</a>
+										</p>
+										<img src="../../assets/img/user_flow_3.svg"></img>
+									</div>
+							</div>
+							<div class="user_flow_arrow">
+								<img src="../../assets/img/arrow.svg"></img>
+							</div>
+							<div class="user_flow_cards">
+									<div class="user_flow_cards_content">
+										<h3>4. Create or use digital identity</h3>
+										<img style="margin-top: 5rem;" src="../../assets/img/user_flow_4.svg"></img>
+									</div>
+							</div>
+							<div class="user_flow_arrow">
+								<img src="../../assets/img/arrow.svg"></img>
+							</div>
+							<div class="user_flow_cards">
+									<div class="user_flow_cards_content">
+										<h3>5. Continue with the service</h3>
+										<p style="margin-top: 5rem;">
+											<a href="./#">
+												Page template for checking eligibility
+											</a>
+										</p>
+										<img src="../../assets/img/user_flow_5.svg"></img>
+									</div>
+							</div>
+							<div class="user_flow_arrow">
+								<img src="../../assets/img/arrow.svg"></img>
+							</div>
+							<div class="user_flow_cards">
+									<div class="user_flow_cards_content">
+										<h3>6. Complete the service</h3>
+										<p style="margin-top: 5rem;">
+											<a href="./#">
+												Page template for checking eligibility
+											</a>
+										</p>
+										<img src="../../assets/img/user_flow_6.svg"></img>
+									</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -218,8 +288,8 @@
 			crossorigin></script>
 
 		<!-- Load our React component. -->
-		<script src="../header_component.js" logo_location=".."></script>
-		<script src="../footer_component.js"></script>
+		<script src="../../header_component.js" logo_location=".."></script>
+		<script src="../../footer_component.js"></script>
 	</body>
 
 </html>
