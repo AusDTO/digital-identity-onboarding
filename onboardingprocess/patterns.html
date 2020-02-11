@@ -147,16 +147,16 @@
 		<main><!--CONTENT-->
 			<section class="au-body">
 				<div class="container-fluid">
-						<div class="row" style="margin: 1rem 0 3rem 0">
-								<!-- Breadcrumbs -->
-								<a href="../#">Home</a>
-								<span style="color: #bbbbbb"> > </span> 
-								<a href="./#">Onboarding process</a>
-								<span style="color: #bbbbbb"> > </span> 
-								<a href="./user_experience.html">User experience</a>
-								<span style="color: #bbbbbb"> > </span> 
-								Patterns
-							</div>
+					<div class="row" style="margin: 1rem 0 3rem 0">
+						<!-- Breadcrumbs -->
+						<a href="../#">Home</a>
+						<span style="color: #bbbbbb"> > </span>
+						<a href="./#">Onboarding process</a>
+						<span style="color: #bbbbbb"> > </span>
+						<a href="./user_experience.html">User experience</a>
+						<span style="color: #bbbbbb"> > </span>
+						Patterns
+					</div>
 					<div class="row">
 						<div class="col-sm-2"> <!-- col-sm-push-8" -->
 
@@ -178,8 +178,12 @@
 											<ul class="au-link-list">
 												<li><a href="./design_principles.html">Design principles</a></li>
 												<li><a href="./user_flows.html">User flows</a></li>
-												<li><a href="./template_pages.html">Page templates</a></li>
+												<li><a href="./page_templates.html">Page templates</a></li>
 												<li><a href="./patterns.html" style="font-weight: bold">Patterns</a></li>
+												<ul class="au-link-list">
+													<li><a href="./digital-identity-choice-card.html">Digital identity
+															choice card</a></li>
+												</ul>
 												<li><a href="./branding.html">Branding</a></li>
 											</ul></li>
 										<li><a href="./technical_and_compliance.html">Technical and compliance</a></li>
@@ -190,82 +194,44 @@
 						</div>
 
 						<div class="col-sm-8" id="content"> <!-- col-sm-pull-4 -->
-
 							<h1>Patterns</h1>
-							<p class="intro-text">Digital identity choice card</p>
-							<p>This pattern helps users make the choice to use digital identity as
-								part of accessing a service, by providing an overview of eligibility,
-								giving an understanding of why you would choose it, and a clear call to
-								action.
+							<p>Tested and validated with users, these patterns can be combined to
+								develop page layouts to assist users with the digital identity selection
+								and creation process.
 							</p>
-							<!-- <div id="choice_card">
-								<h3>Create a USI and a secure digital identity</h3>
-								<p>Prove who you are when you create your USI with a secure, reusable
-									digital identity. You will need:</p>
-								<ul>
-									<li>an iPhone 6 or newer</li>
-									<li>an Australian Driver License or Australian Passport</li>
-									<li>an Australian Medicare Card</li>
-								</ul>
-								<p>This is a safe and secure process. You can use your digital identity
-									again to prove who you are when you log in to USI and other
-									participating government agencies.
-								</p>
-								<p></p>
-								<p><a href="https://www.dta.gov.au/our-projects/digital-identity"
-										target="_blank">Find out
-										more about digital identity</a></p>
-								<div class="btn-cta-group">
-									<a class="au-btn au-btn--primary" href="https://www.usi.gov.au/">
-										Create a USI and digital identity</a>
+							<p></p>
+							<div class="row" style="margin-left: 0rem">
+								<div class="col-md-5 au-card au-body au-card--shadow
+									au-card--clickable" style="margin-right: 2rem">
+									<div class="au-card__inner card">
+										<h3 class="au-card__title"><a class="au-card--clickable__link"
+												href="digital-identity-choice-card.html">Digital identity choice
+												card</a></h3>
+									</div>
 								</div>
 							</div>
-							 -->
-							 <p></p>
-							 <div class="example-card-heading" style="margin-top: 1rem">Example</div>
-							<div class="example-card-content">	
-								 <img src="../assets/img/pattern-example.png"></img>
-							 </div>
-							<h2>Do</h2>
-							<p>Keep it short and to the point, using bullet points and short
-								statements.
-								Give the user enough information to make an informed choice. Link off to
-								further information for those that need it. Label the button clearly
-								with
-								what the user is going to do.</p>
-
-							<h2>Don’t</h2>
-							<p>Don’t overwhelm the user with information, using long sentences and
-								jargon. Don’t use ambiguous labels on buttons.</p>
-
-							<h2>Guidance</h2>
-							<p>Provide an alternative method for users who don’t meet the criteria or
-								don’t wish to use digital identity.</p>
 						</div>
+						<div style="margin-bottom: 4rem;"></div>
+					</section>
+					<!--END CONTENT--></main>
 
-					</div>
-				</div>
-				<div style="margin-bottom: 4rem;"></div>
-			</section>
-			<!--END CONTENT--></main>
-
-		<div id="footer_component"></div>
+				<div id="footer_component"></div>
 
 
 
-		<!-- The javascript from pancake to open and close side nav on desktop -->
-		<script type="text/javascript" src="js/script.min.js"></script>
+				<!-- The javascript from pancake to open and close side nav on desktop -->
+				<script type="text/javascript" src="js/script.min.js"></script>
 
-		<!-- Load React. -->
-		<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-		<script src="https://unpkg.com/react@16/umd/react.development.js"
-			crossorigin></script>
-		<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
-			crossorigin></script>
+				<!-- Load React. -->
+				<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+				<script src="https://unpkg.com/react@16/umd/react.development.js"
+					crossorigin></script>
+				<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+					crossorigin></script>
 
-		<!-- Load our React component. -->
-		<script src="../header_component.js" logo_location=".."></script>
-		<script src="../footer_component.js"></script>
-	</body>
+				<!-- Load our React component. -->
+				<script src="../header_component.js" logo_location=".."></script>
+				<script src="../footer_component.js"></script>
+			</body>
 
-</html>
+		</html>
