@@ -4,9 +4,24 @@ const e = React.createElement;
 class HeaderComponent extends React.Component {
   constructor(props) {
     super(props);
+    // this.state = { liked: false };
   }
 
   render() {
+    /* if (this.state.liked) {
+      return "You liked this.";
+    }
+    console.log("This is accessed");
+    return e(
+      "button",
+      { onClick: () => this.setState({ liked: true }) },
+      "Like"
+    ); */
+    let location = window.location.href.split("/");
+    let homelocation =
+      location[0] + location[1] + location[2] + location[3] + "#";
+    console.log(homelocation);
+
     return e(
       "header",
       {
@@ -30,12 +45,12 @@ class HeaderComponent extends React.Component {
               "a",
               {
                 class: "au-header__brand",
-                href: "/#"
+                href: homelocation
               },
               React.createElement("img", {
                 className: "au-header__brand-image",
                 alt: "Digital Identity Service Onboarding Guide",
-                src: "/assets/img/header-logo-agov.png"
+                src: "../assets/img/header-logo-agov.png"
               }),
               React.createElement(
                 "div",
