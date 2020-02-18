@@ -60,7 +60,7 @@ class HeaderComponent extends React.Component {
                   {
                     class: "au-header__heading"
                   },
-                  "Digital Identity Service Onboarding Guide"
+                  "Digital identity service onboarding guide"
                 )
               )
             )

@@ -162,8 +162,8 @@
 							<p>If you want to start the onboarding process you can use this
 								questionnaire to set up a meeting.</p>
 							<div class="btn-cta-group">
-								<a class="au-btn au-btn--secondary" href="../bookameeting" text-align:
-									center;">Book a meeting with our team</a>
+								<a class="au-btn au-btn--secondary" href="../bookameeting"
+									style="text-align: center;">Book a meeting with our team</a>
 							</div>
 						</div>
 					</div>
@@ -178,20 +178,14 @@
 					<h2>Ask a question</h2>
 					<p>Please complete this form so we can get back to you: </p>
 
-					<div class="au-page-alerts au-page-alerts--error hide_content"
-						id="error-summary">
-						<h3 tabindex="0" id="error-heading">There is a problem</h3>
-						<ul id="error-list"></ul>
-					</div>
-
-					<!-- onsubmit="return validateContactForm()" -->
-					<form id="" action="" id="contact-form"
-						enctype="multipart/form-data">
+					<form id="contact-form" action="" name="contact-form"
+						onsubmit="return
+						validateContactForm()" method="post" enctype="multipart/form-data">
 						<div class="au-form-group">
 							<label for="name" class="au-label">Name:</label>
 							<span class="au-error-text hide_content" id="name-error">Please enter
 								your name</span>
-							<input class="au-text-input au-text-input--width-lg" name="Name"
+							<input class="au-text-input au-text-input--width-lg" name="name"
 								id="name" type="text" aria-required="true"
 								aria-describedby="name-error-text" autocomplete="name">
 						</div>
@@ -202,7 +196,7 @@
 								respond to your request</span>
 							<span class="au-error-text hide_content" id="email-error">Please enter
 								your email</span>
-							<input class="au-text-input au-text-input--width-lg" name="Email"
+							<input class="au-text-input au-text-input--width-lg" name="email"
 								id="email" type="email" aria-required="true"
 								aria-describedby="email-error-text email-hint" autocomplete="email">
 						</div>
@@ -211,9 +205,9 @@
 							<label for="name" class="au-label">Phone:</label>
 							<span class="au-hint-text" id="email-hint">We will only use this to
 								respond to your request</span>
-							<span class="au-error-text hide_content" id="email-error">Please enter
+							<span class="au-error-text hide_content" id="phone-error">Please enter
 								your phone number</span>
-							<input class="au-text-input au-text-input--width-lg" name="Phone"
+							<input class="au-text-input au-text-input--width-lg" name="phone"
 								id="phone" type="text" aria-required="true"
 								aria-describedby="phone-error-text phone-hint" autocomplete="name">
 						</div>
@@ -224,7 +218,7 @@
 								your contact request.</span>
 							<span class="au-error-text hide_content" id="description-error">Please
 								add information about your contact request.</span>
-							<textarea class="au-text-input au-text-input--block" name="Description"
+							<textarea class="au-text-input au-text-input--block" name="description"
 								id="description" aria-required="true"
 								aria-describedby="description-error description-hint"></textarea>
 						</div>
@@ -232,7 +226,7 @@
 						<p></p>
 						<!--FORM SUBMIT BUTTON-->
 						<div class="au-form-group">
-							<button class="au-btn" id="contact-submit" type="submit">Submit</button>
+							<button class="au-btn" id="send" type="submit">Submit</button>
 							<div id="statusMessage">
 								<?php
 									if (! empty($message)) {
@@ -298,7 +292,7 @@
 				return valid;
 				
 			}
-		</script>
+			</script>
 			<!-- The javascript from pancake to open and close side nav on desktop -->
 			<script type="text/javascript" src="../js/script.min.js"></script>
 
