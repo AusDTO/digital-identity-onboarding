@@ -21,18 +21,18 @@ class HeaderComponent extends React.Component {
     return e(
       "header",
       {
-        class: "au-header au-header--dark",
+        className: "au-header au-header--dark",
         role: "banner"
       },
       React.createElement(
         "div",
         {
-          class: "container-fluid"
+          className: "container-fluid"
         },
         React.createElement(
           "div",
           {
-            class: "row"
+            className: "row"
           },
           React.createElement(
             "div",
@@ -40,7 +40,7 @@ class HeaderComponent extends React.Component {
             React.createElement(
               "a",
               {
-                class: "au-header__brand",
+                className: "au-header__brand",
                 href: "./#"
               },
               React.createElement("img", {
@@ -53,12 +53,12 @@ class HeaderComponent extends React.Component {
               React.createElement(
                 "div",
                 {
-                  class: "au-header__text"
+                  className: "au-header__text"
                 },
                 React.createElement(
                   "h1",
                   {
-                    class: "au-header__heading"
+                    className: "au-header__heading"
                   },
                   "Digital Identity Service Onboarding Guide"
                 )

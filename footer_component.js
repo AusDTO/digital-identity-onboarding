@@ -10,29 +10,29 @@ class FooterComponent extends React.Component {
     return e(
       "footer",
       {
-        class: "au-footer au-footer--dark au-body au-body--dark",
+        className: "au-footer au-footer--dark au-body au-body--dark",
         role: "contentinfo"
       },
       React.createElement(
         "div",
         {
-          class: "container-fluid"
+          className: "container-fluid"
         },
         React.createElement(
           "div",
           {
-            class: "row"
+            className: "row"
           },
           React.createElement(
             "nav",
             {
-              class: "col-md-12",
+              className: "col-md-12",
               "aria-label": "footer"
             },
             React.createElement(
               "ul",
               {
-                class: "au-link-list au-link-list--inline"
+                className: "au-link-list au-link-list--inline"
               },
               React.createElement(
                 "li",
@@ -110,12 +110,12 @@ class FooterComponent extends React.Component {
           React.createElement(
             "section",
             {
-              class: "col-sm-12"
+              className: "col-sm-12"
             },
             React.createElement(
               "div",
               {
-                class: "au-footer__end"
+                className: "au-footer__end"
               },
               React.createElement(
                 "p",
