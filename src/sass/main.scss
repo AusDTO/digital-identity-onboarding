@@ -215,6 +215,12 @@ header {
   margin-bottom: 1rem;
 }
 
-.au-inpage-nav-links a {
+.scrolling-box {
   scroll-behavior: smooth;
+  overflow-y: scroll;
+  display: block;
+}
+
+.double {
+  width: 400px !important;
 }

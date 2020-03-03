@@ -1775,6 +1775,8 @@ header { background-color: #313131 !important; padding: 2rem !important; }
 
 .super { height: 250px !important; margin-bottom: 1rem; }
 
-.au-inpage-nav-links a { scroll-behavior: smooth; }
+.scrolling-box { scroll-behavior: smooth; overflow-y: scroll; display: block; }
+
+.double { width: 400px !important; }
 
 /*# sourceMappingURL=main.css.map */
