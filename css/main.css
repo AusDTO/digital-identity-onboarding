@@ -1779,4 +1779,8 @@ header { background-color: #313131 !important; padding: 2rem !important; }
 
 .au-body section.au-callout h2.au-callout__heading { font-size: 1.25rem !important; }
 
+.au-body .ol_heading { font-size: 2rem; line-height: 1.25; font-weight: bold; }
+
+.au-body .ol_heading .ol_content { font-size: 16px; font-weight: normal; margin-bottom: 2rem; }
+
 /*# sourceMappingURL=main.css.map */
