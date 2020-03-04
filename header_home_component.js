@@ -45,7 +45,7 @@ class HeaderComponent extends React.Component {
               },
               React.createElement("img", {
                 className: "au-header__brand-image",
-                alt: "Digital Identity Service Onboarding Guide",
+                alt: "Digital identity service onboarding guide",
                 src:
                   //this.props.logo_location +
                   "./assets/img/header-logo-agov.png"
@@ -60,7 +60,7 @@ class HeaderComponent extends React.Component {
                   {
                     className: "au-header__heading"
                   },
-                  "Digital Identity Service Onboarding Guide"
+                  "Digital identity service onboarding guide"
                 )
               )
             )
