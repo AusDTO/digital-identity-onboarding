@@ -11,6 +11,10 @@
 //Main nav, set project specific breakpoint
 $AU-main-nav-breakpoint: sm;
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 // UI-Kit
 @import "./_auds.scss";
 
